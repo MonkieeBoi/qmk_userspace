@@ -41,4 +41,7 @@
 #define MK_C_OFFSET_2 16
 #define PERMISSIVE_HOLD
 
+#define COMBO_STRICT_TIMER
+#define COMBO_TERM 15
+
 // #define DEBUG_MATRIX_SCAN_RATE

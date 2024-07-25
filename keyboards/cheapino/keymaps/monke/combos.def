@@ -1,0 +1,16 @@
+//              Layer    Reference layer
+COMBO_REF_LAYER(1,        0)
+
+//   name      result    combo keys
+COMB(DT_TAB,   KC_TAB,   KC_T, KC_D)
+COMB(NH_BSPC,  KC_BSPC,  KC_N, KC_H)
+COMB(ZX_UNDO,  C(KC_Z),  KC_Z, KC_X)
+COMB(XC_CUT,   C(KC_X),  KC_X, KC_C)
+COMB(CV_CPY,   C(KC_C),  KC_C, KC_V)
+COMB(VB_PST,   C(KC_V),  KC_V, KC_B)
+// gaming
+COMB(ER_1,     KC_1,     KC_E, KC_R)
+COMB(DF_2,     KC_2,     KC_D, KC_F)
+COMB(EF_3,     KC_3,     KC_E, KC_F)
+COMB(DV_4,     KC_4,     KC_D, KC_V)
+COMB(TQ_ESC,   KC_ESC,   KC_Q, KC_TAB)
