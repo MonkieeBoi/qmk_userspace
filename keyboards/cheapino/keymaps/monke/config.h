@@ -1,4 +1,5 @@
 #define TAPPING_TERM 230
+#define TAPPING_TERM_PER_KEY
 
 #define MK_3_SPEED
 #define MK_MOMENTARY_ACCEL
