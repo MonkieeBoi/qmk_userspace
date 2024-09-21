@@ -5,3 +5,4 @@ VPATH += keyboards/gboards
 INTROSPECTION_KEYMAP_C = combos.c
 # SRC += osl.c
 SRC += per_key_tt.c
+SRC += require_idle.c
