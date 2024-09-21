@@ -7,6 +7,12 @@
     QK_MOD_TAP_GET_TAP_KEYCODE(kc) <= KC_Z) || \
     QK_MOD_TAP_GET_TAP_KEYCODE(kc) == KC_SPC))
 
+// Decision macro for preceding trigger key
+#define IS_REGULAR_KEY(k) ( \
+    (!IS_QK_MOD_TAP(k)) && \
+    ((uint8_t)(k) <= KC_Z) && \
+    ((uint8_t)(k) >= KC_A))
+
 bool pre_process_record_user(uint16_t keycode, keyrecord_t *record) {
     static bool     is_pressed[UINT8_MAX];
     static uint16_t idle_timer = 0;
@@ -18,7 +24,7 @@ bool pre_process_record_user(uint16_t keycode, keyrecord_t *record) {
             is_pressed[tap_keycode] = true;
             record->keycode = tap_keycode;
             idle_timer = timer_read();
-        } else if (!IS_HOMEROW_MOD_TAP(keycode)) {
+        } else if (IS_REGULAR_KEY(keycode)) {
             idle_timer = timer_read();
         }
     }
