@@ -31,22 +31,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   L2:
-  - [Q, W, F, P, G, J, L, U, Y, ;]
-  - [A, R, S, T, D, H, N, E, I, O]
-  - [Z, X, C, V, B, K, M, ',', ., /]
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  L3:
   - TAB
   - Q
   - W
   - E
   - R
-  - {t: L3, h: toggle}
+  - {t: L0, h: toggle}
   - {t: ▽, type: trans}
   - UP
   - {t: ▽, type: trans}
@@ -67,13 +57,50 @@ layers:
   - C
   - V
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: L3, h: toggle}
   - {t: L4, h: sticky}
   - {t: L5, h: sticky}
   - F6
   - LALT
   - SPC
   - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  L3:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: L3, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -105,8 +132,8 @@ layers:
   - APP
   - WH L
   - WH R
-  - ''
-  - ''
+  - COPY
+  - PSTE
   - QK BOOT
   - {type: held}
   - {t: ▽, type: trans}
@@ -152,8 +179,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   L6:
+  - {t: ▽, type: trans}
   - {t: L1, h: toggle}
-  - {t: L2, h: toggle}
   - {t: L4, h: toggle}
   - {t: L5, h: toggle}
   - PWR
@@ -191,6 +218,8 @@ layers:
 combos:
   - {p: [22, 21], k: {t: L3, h: toggle}, l: ["L0"]}
   - {p: [22, 23], k: C-c, l: ["L0"]}
+  - {p: [2, 3], k: "$", l: ["L0"]}
+  - {p: [27, 28], k: "->", l: ["L0"]}
   - {p: [24, 23], k: C-v, l: ["L0"]}
   - {p: [14, 13], k: C-s, l: ["L0"]}
   - {p: [13, 3], k: "(", l: ["L0"]}
@@ -202,12 +231,12 @@ combos:
   - {p: [7, 18], k: "'", l: ["L0"], a: "left", o: -1.1}
   - {p: [7, 8], k: "\"", l: ["L0"], a: "top"}
   - {p: [7, 6], k: "!", l: ["L0"]}
-  - {p: [21, 22], k: {t: L3, h: toggle}, l: ["L3"]}
-  - {p: [4, 3], k: "1", l: ["L3"]}
-  - {p: [14, 13], k: "2", l: ["L3"]}
-  - {p: [13, 3], k: "3", l: ["L3"]}
-  - {p: [14, 4], k: "4", l: ["L3"]}
-  - {p: [0, 1], k: ESC, l: ["L3"]}
-  - {p: [13, 23], k: B, l: ["L3"]}
-  - {p: [14, 24], k: G, l: ["L3"]}
-  - {p: [11, 21], k: N, l: ["L3"]}
+  - {p: [21, 22], k: {t: L3, h: toggle}, l: ["L2"]}
+  - {p: [4, 3], k: "1", l: ["L2"]}
+  - {p: [14, 13], k: "2", l: ["L2"]}
+  - {p: [13, 3], k: "3", l: ["L2"]}
+  - {p: [14, 4], k: "4", l: ["L2"]}
+  - {p: [0, 1], k: ESC, l: ["L2"]}
+  - {p: [13, 23], k: B, l: ["L2"]}
+  - {p: [14, 24], k: G, l: ["L2"]}
+  - {p: [11, 21], k: N, l: ["L2"]}
