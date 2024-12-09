@@ -1,6 +1,5 @@
 //              Layer    Reference layer
 COMBO_REF_LAYER(1,        0)
-COMBO_REF_LAYER(2,        0)
 
 //   name      result    combo keys
 COMB(DT_SAV,   C(KC_S),  KC_D, LSFT_T(KC_T))
@@ -15,12 +14,12 @@ COMB(LI_PLS,   KC_PLUS,  KC_L, RALT_T(KC_I))
 COMB(LU_EM,    KC_EXLM,  KC_L, KC_U)
 COMB(PT_PNL,   KC_LPRN,  KC_P, LSFT_T(KC_T))
 COMB(GD_CBL,   KC_LCBR,  KC_G, KC_D)
-COMB(FP_DLR,   KC_DLR,   KC_F, KC_P)
+COMB(FP_NUM,   OSL(5),   KC_F, KC_P)
 SUBS(CD_ARW,   "->",     KC_COMM, KC_DOT)
 
 // gaming
-TOGG(XC_TOG,   3,         KC_X, KC_C)
-TOGG(ZX_TOG,   3,         KC_Z, KC_X)
+TOGG(XC_TOG,   2,         KC_X, KC_C)
+TOGG(ZX_TOG,   2,         KC_Z, KC_X)
 COMB(ER_1,     KC_1,      KC_E, KC_R)
 COMB(DF_2,     KC_2,      KC_D, KC_F)
 COMB(ED_3,     KC_3,      KC_E, KC_D)

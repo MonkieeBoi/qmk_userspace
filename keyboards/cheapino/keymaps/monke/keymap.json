@@ -40,7 +40,7 @@
       "LT(4,KC_ESC)",
       "LT(5,KC_SPC)",
       "LSFT_T(KC_TAB)",
-      "QK_REP",
+      "OSM(MOD_LSFT)",
       "RSFT_T(KC_BSPC)",
       "LT(6,KC_ENT)"
     ],

@@ -17,7 +17,7 @@ layers:
   - {t: ESC, h: L4}
   - {t: SPC, h: L5}
   - {t: TAB, h: LSFT}
-  - QK REP
+  - {t: LSFT, h: sticky}
   - {t: BSPC, h: RSFT}
   - {t: ENT, h: L6}
   L1:
@@ -218,7 +218,7 @@ layers:
 combos:
   - {p: [22, 21], k: {t: L3, h: toggle}, l: ["L0"]}
   - {p: [22, 23], k: C-c, l: ["L0"]}
-  - {p: [2, 3], k: "$", l: ["L0"]}
+  - {p: [2, 3], k: {t: L5, h: toggle}, l: ["L0"]}
   - {p: [27, 28], k: "->", l: ["L0"]}
   - {p: [24, 23], k: C-v, l: ["L0"]}
   - {p: [14, 13], k: C-s, l: ["L0"]}
