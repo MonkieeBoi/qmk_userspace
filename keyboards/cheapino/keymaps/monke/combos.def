@@ -14,8 +14,10 @@ COMB(LI_PLS,   KC_PLUS,  KC_L, RALT_T(KC_I))
 COMB(LU_EM,    KC_EXLM,  KC_L, KC_U)
 COMB(PT_PNL,   KC_LPRN,  KC_P, LSFT_T(KC_T))
 COMB(GD_CBL,   KC_LCBR,  KC_G, KC_D)
-COMB(FP_NUM,   OSL(5),   KC_F, KC_P)
+COMB(PG_NUM,   OSL(5),   KC_P, KC_G)
 SUBS(CD_ARW,   "->",     KC_COMM, KC_DOT)
+
+COMB(FS_TES,   SAFE_RANGE,   KC_F, LCTL_T(KC_S))
 
 // gaming
 TOGG(XC_TOG,   2,         KC_X, KC_C)
