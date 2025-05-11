@@ -9,3 +9,6 @@
 
 #define COMBO_STRICT_TIMER
 #define COMBO_TERM 20
+
+#define FLOW_TAP_TERM 200
+#define CHORDAL_HOLD
